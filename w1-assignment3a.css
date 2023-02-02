@@ -1,0 +1,48 @@
+body {
+  width: 60cm;
+  margin: 0 auto;
+
+}
+.main-container {
+  display: flex;
+}
+section {
+  padding: 2cm;
+  margin: 1cm;
+
+}
+#green {
+  background-color: #baffc9;
+  order: 2;
+  font-size: 20px;
+}
+#orange {
+  background-color: #ffdfba;
+  flex-grow: 1;
+  order: 3;
+  font-size: 20px;
+}
+#yellow {
+  background-color: #ffffba;
+  order: 0;
+  font-size: 20px;
+}
+#red {
+  background-color: #ffb3ba;
+  order: 1;
+  font-size: 20px;
+}
+#blue {
+  background-color: #bae1ff;
+  order: 4;
+  font-size: 20px;
+}
+ul {
+  padding: 0;
+}
+li {
+  background-color: white;
+  padding: 1cm;
+  display: block;
+  margin: 1cm;
+}
