@@ -1,0 +1,17 @@
+table{
+  border-collapse: collapse;
+  width: 50%;
+  margin-right: 0;
+  
+}
+th{
+  height: 50px;
+}
+span{
+  color: blue;
+  text-decoration: underline;
+}
+td{
+  text-align:center;
+ 
+}
