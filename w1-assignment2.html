@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+  <div class="container">
+  <div class="row">
+    <h1 class="question-heading">
+      How to force child div to be 100% of parent div's height without
+      specifying parent's height?
+    </h1>
+    <div class="time-specified-container">
+      <p class="time">
+        <span style="color: #6a737c; margin: 0px 2px 0px 0px">Asked </span
+        >12 years,6 months ago
+      </p>
+      <p class="time">
+        <span style="color: #6a737c; margin: 0px 2px 0px 0px"
+          >Active </span
+        >1 month ago
+      </p>
+      <p class="time">
+        <span style="color: #6a737c; margin: 0px 2px 0px 0px">Viewd </span
+        >1.2M times
+      </p>
+    </div>
+    <hr style="border-width: 0.3px" />
+    <div class="bottom-container">
+      <div class="side-bar">
+        <img
+          src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/arrow_drop_up/default/48px.svg"
+          class="arrow-icon"
+        />
+        <p class="number">644</p>
+        <img
+          src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/arrow_drop_down/default/48px.svg"
+          class="arrow-iocn"
+        />
+        <img
+          src="https://icons.getbootstrap.com/assets/icons/bookmark.svg"
+          width="27"
+          style="margin-left: 30px"
+        />
+        <img
+          src="https://icons.getbootstrap.com/assets/icons/clock-history.svg"
+          width="27"
+          style="margin-left: 30px; margin-top: 20px"
+        />
+      </div>
+      <div class="question-answer-container">
+        <p>I have a site with the following structure:</p>
+        <div class="code-snippet-container">
+          <img src="https://i.ibb.co/xzR2TyC/html-snippet.png" width="100%"/>
+        </div>
+          <p style="width:100%;margin-top:30px;margin-bottom:0px;">The navigation is on the left and the content div is on the right. The information for the content div is pulled in through PHP, so it's different every time.</p>
+          <br/>
+          <p style="width:100%;marging-top:0px">How can I scale the navigation vertically so that its height is the same as the content div's height, no matter which page is loaded?</p>
+        <div style="margin-top:45px;margin-bottom:50px">
+          <a class="link">html</a>
+          <a class="link">css</a>
+        </div>
+        <div  class="bottom-container">
+          <div  style="color:#6A737C;font-size:13px; display:flex">
+            <a>Share</a>
+            <a>Improve This Question</a>
+            <a>Follow</a>
+          </div>
+          <div class="editor-container">
+            <p class="edited-time">edited Jan 3, 2019 at 20:20</p>
+            <div style="display:flex;">
+            <img src="https://i.stack.imgur.com/UIrGI.jpg?s=64&g=1"  width="26%" />
+           <div class="name-container">
+              <p class="name">Tylerh</p>
+            <p style="font-size:13px">20.4K  <span class="badg1"></span> 61
+              <span class="badg2"></span>75
+              <span class="badg3"></span>95</p>
+           </div>
+          </div>
+          </div>
+          <div class="user-data-container">
+            <div class="user-details">
+                asked <span title="2009-07-13 22:14:05Z" class="relativetime">Jul 13, 2009 at 22:14</span>
+            </div>
+            <div style="display:flex; padding:10px">
+              <img src="https://icons.getbootstrap.com/assets/icons/person.svg" class="user-image"/>
+              <p class="d-none" itemprop="name">user137726</p>
+            </div>
+        </div>
+        </div>
+        <hr style="border-width: 0.3px;margin-top:20px" />
+        <div class="bottom-text"> 
+          <div style="display:flex">
+          <div style="margin-right:20px">2</div>
+          <div>Use display table on parent and display table-cell on child. This will make child as long as the parent is. See <a href="html.com" >stackoverflow.com/q/22712489/3429430 – 
+          user31782</a>
+           Dec 7, 2016 at 17:07
+          </div>
+          </div>
+           <hr style="border-width: 0.3px;margin-top:20px" />
+           <div class="bottom-text">
+             <div style="display:flex">
+             <div style="margin-right:20px" >12</div>
+             <div>
+            You can just set display: flex; align-items: stretch; for the div#main. And don't use height: 100% for div#content – 
+            Ihor
+             Jun 19, 2019 at 11:44
+             </div>
+           </div>
+           </div>
+           <hr style="border-width: 0.3px;margin-top:20px" />
+    </div>
+  </div>
+</div>
+  </body>
+</html>
