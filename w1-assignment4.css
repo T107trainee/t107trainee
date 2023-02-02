@@ -1,0 +1,27 @@
+.checkboxes-container,
+.radio-buttons-container{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.checkbox-container,
+.radio-button-container{
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: rgb(102,102,102);
+  border-width: 1px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.checkbox-heading,
+.radio-buttons-heading {
+  margin-bottom: 0;
+  margin-left: 25px;
+}
+.checkbox,
+.radio{
+  align-items: center;
+  display: flex;
+}
